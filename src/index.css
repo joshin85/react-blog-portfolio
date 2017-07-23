@@ -57,14 +57,14 @@ a:hover {
   font-size: 17px;
 }
 
-.card.disabled {
+.card.disabled,.card-button.disabled {
   box-shadow: 0 0 0;
   background: #ddd;
   color: #aaa;
   cursor: not-allowed;
 }
 
-.card.disabled:hover {
+.card.disabled:hover,.card-button.disabled:hover {
   box-shadow: 0 0 0;
   background: #ddd;
   color: #aaa;

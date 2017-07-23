@@ -15,6 +15,12 @@
     padding:0px;
 }
 
+.nav .disabled {
+    background:#ddd;
+    color:#aaa;
+    cursor:not-allowed;
+}
+
 .nav a {    
     transition: 0.3s;
     width: 100%;
@@ -23,7 +29,12 @@
     color:white;
 }
 
-
+.nav .disabled:hover {
+    background:#ddd;
+    color:#aaa;
+    cursor:not-allowed;
+}
+ 
 .nav a:hover {
     background:#0288D1;
     color:white;
