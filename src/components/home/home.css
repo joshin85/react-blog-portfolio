@@ -1,0 +1,19 @@
+.background {
+    width:auto;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.home-splash {
+    display:inline-block;
+    overflow:hidden;
+    width:100%;
+    min-height:69vh;
+    margin-top:60px;
+    position:relative;
+    background: url("/static/media/background.b4afba97.jpg");
+    padding:30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

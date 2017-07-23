@@ -1,0 +1,35 @@
+.search {
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding-top:60px;
+    width:100vw;
+    height:100vh;
+    background:#eee;
+    overflow:hidden;
+}
+
+.search-bar {
+    width:100%;
+    background:#0288D1;
+    height:60px;
+}
+
+.search-bar input {
+    width:100%;
+    height:100%;
+    background:#0288D1;
+    outline:none;
+    border:0px;
+    color:white;
+    padding:0px 20px;
+    font-size:20px;
+}
+
+.search > .row {
+    padding:30px;
+}
+
+.card-button .card-body span {
+    color:#aaa;
+}

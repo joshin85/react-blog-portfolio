@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eee;
+}
+
+a.active {
+  background: #0288D1;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+.card-full {
+  height: calc(85vh - 100px);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background: white;
+  margin: 20px 0px;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.card-image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background: white;
+  margin: 10px 0px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.card-img img{
+  width:100%;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  text-align: left;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+.card-body {
+  text-align: left;
+  padding: 0px 20px;
+  font-size: 17px;
+}
+
+.card.disabled {
+  box-shadow: 0 0 0;
+  background: #ddd;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.card.disabled:hover {
+  box-shadow: 0 0 0;
+  background: #ddd;
+  color: #aaa;
+}
+
+.card-button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background: white;
+  margin: 20px 0px;
+  padding: 35px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.detail-page {
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100vh;
+  background-color: #03a9f4;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.detail-page.transition-appear {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.detail-page.transition-appear.transition-appear-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.detail-page.transition-leave {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.detail-page.transition-leave.transition-leave-active {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ddd;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ddd;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ddd;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #ddd;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:    #ddd;
+}
