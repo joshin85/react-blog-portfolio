@@ -88,6 +88,11 @@ a:hover {
   padding: 2px 16px;
 }
 
+.rx-container {
+  width:100%;
+  height:100vh;
+}
+
 .detail-page {
   overflow: auto;
   box-sizing: border-box;

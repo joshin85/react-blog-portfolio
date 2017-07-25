@@ -8,19 +8,34 @@ class Nav extends Component {
         return (
             <div className="nav">
                 <div className="col-xs-2">
-                    <a to="/search" className="disabled" activeClassName="active">
+                    <NavLink to="/search" className="" activeClassName="active">
                         <i className="fa fa-search"></i>
-                    </a >
+                    </NavLink >
                 </div>
                 <div className="col-xs-2">
-                     <a  to="/home"  className="disabled" activeClassName="active">
+                     <NavLink  to="/home"  className="" activeClassName="active">
                         <i className="fa fa-home"></i>
-                    </a >
+                    </NavLink >
                 </div>
                 <div className="col-xs-2">
-                     <a  to="/contact"  className="disabled" activeClassName="active">
+                     <NavLink  to="/contact"  className="" activeClassName="active">
                         <i className="fa fa-envelope"></i>
-                    </a >
+                    </NavLink >
+                </div>
+                <div className="col-xs-2">
+                     <NavLink  to="/blog"  className="" activeClassName="active">
+                        <i className="fa fa-list"></i>
+                    </NavLink >
+                </div>
+                <div className="col-xs-2">
+                     <NavLink  to="/projects"  className="" activeClassName="active">
+                        <i className="fa fa-rocket"></i>
+                    </NavLink >
+                </div>
+                <div className="col-xs-2">
+                     <NavLink  to="/about"  className="" activeClassName="active">
+                        <i className="fa fa-user"></i>
+                    </NavLink >
                 </div>
             </div>
         )

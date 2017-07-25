@@ -1,0 +1,1 @@
+npm run build; scp -r ./build/* am:app/build; ssh am killall node; ssh am serve -s /app/build

@@ -11,6 +11,8 @@ import './styles/css/font-awesome-solid.css';
 import Nav from './components/nav';
 import Home from './components/home';
 import Search from './components/search';
+import Blog from './components/blog';
+import Projects from './components/projects';
 
 class App extends Component {
 
@@ -25,8 +27,10 @@ class App extends Component {
         <div className="container-fluid">
           <Switch>
             <div className="box-container">
-              <Route path="/" component={Home}/>
+              <Route path="/home" component={Home}/>
               <Route path="/search" component={Search}/>
+              <Route path="/projects" component={Projects}/>
+              <Route path="/blog" component={Blog}/>
             </div>
           </Switch>
         </div>

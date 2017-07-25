@@ -9,7 +9,7 @@ import './'
 class Search extends Component {
     render(){
         return (
-            <div className="search">
+            <div className="rx-container search">
                 <div className="search-bar">
                     <input type="text" placeholder="Search..."/>
                 </div>
