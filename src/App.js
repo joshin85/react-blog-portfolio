@@ -5,8 +5,11 @@ import { Router, Route, IndexRoute, Switch  } from 'react-router-dom';
 import PageTransition from 'react-router-page-transition';
 import background from './images/background.jpg';
 import './App.css';
+
 import './styles/css/font-awesome-core.css';
+import './styles/css/font-awesome-regular.css';
 import './styles/css/font-awesome-solid.css';
+import './styles/css/font-awesome-brands.css';
 
 import Nav from './components/nav';
 import Home from './components/home';

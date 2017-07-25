@@ -1,0 +1,12 @@
+.top-right {
+    position:absolute;
+    top:15px;
+    left:15px;
+    color:#0277BD;
+    font-size:17px;
+}
+
+.social {
+    font-size:17px;
+    text-align:center;
+}

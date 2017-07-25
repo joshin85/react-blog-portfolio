@@ -1,6 +1,6 @@
 .blog {
     background:#ddd;
-    width:928px;
+    max-width:928px;
     margin:auto;
     height:auto;
     padding:15px;

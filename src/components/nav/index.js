@@ -9,32 +9,32 @@ class Nav extends Component {
             <div className="nav">
                 <div className="col-xs-2">
                     <NavLink to="/search" className="" activeClassName="active">
-                        <i className="fa fa-search"></i>
+                        <i className="far fa-search"></i>
                     </NavLink >
                 </div>
                 <div className="col-xs-2">
                      <NavLink  to="/home"  className="" activeClassName="active">
-                        <i className="fa fa-home"></i>
+                        <i className="far fa-home"></i>
                     </NavLink >
                 </div>
                 <div className="col-xs-2">
                      <NavLink  to="/contact"  className="" activeClassName="active">
-                        <i className="fa fa-envelope"></i>
+                        <i className="far fa-envelope"></i>
                     </NavLink >
                 </div>
                 <div className="col-xs-2">
                      <NavLink  to="/blog"  className="" activeClassName="active">
-                        <i className="fa fa-list"></i>
+                        <i className="far fa-list"></i>
                     </NavLink >
                 </div>
                 <div className="col-xs-2">
                      <NavLink  to="/projects"  className="" activeClassName="active">
-                        <i className="fa fa-rocket"></i>
+                        <i className="far fa-rocket"></i>
                     </NavLink >
                 </div>
                 <div className="col-xs-2">
                      <NavLink  to="/about"  className="" activeClassName="active">
-                        <i className="fa fa-user"></i>
+                        <i className="far fa-user"></i>
                     </NavLink >
                 </div>
             </div>
