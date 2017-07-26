@@ -53,6 +53,7 @@ a:hover {
 }
 
 .card-body {
+  position:relative;
   text-align: left;
   padding: 0px 20px;
   font-size: 17px;

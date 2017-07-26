@@ -6,15 +6,15 @@ import './nav.css';
 class Nav extends Component {
     render(){
         return (
-            <div className="nav">
-                <div className="col-xs-2">
-                    <NavLink to="/search" className="" activeClassName="active">
-                        <i className="far fa-search"></i>
-                    </NavLink >
-                </div>
+            <div className="nav">               
                 <div className="col-xs-2">
                      <NavLink  to="/home"  className="" activeClassName="active">
                         <i className="far fa-home"></i>
+                    </NavLink >
+                </div>
+                 <div className="col-xs-2">
+                    <NavLink to="/search" className="" activeClassName="active">
+                        <i className="far fa-search"></i>
                     </NavLink >
                 </div>
                 <div className="col-xs-2">

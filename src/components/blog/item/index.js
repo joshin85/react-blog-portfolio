@@ -6,14 +6,28 @@ class BlogItem extends Component {
 
   constructor(state){
     super(state);
+    this.state = state;
+    this.toggle = this.toggle.bind(this);
+    this.open = this.open.bind(this);
+  }
+
+  open(event) {
+    this.state.props.active = true;
+    this.setState(this.state);
+    event.stopPropagation();
+  }
+
+  toggle(event) {
+    this.state.props.active = !this.state.props.active;
+    this.setState(this.state);
+    event.stopPropagation();
   }
 
   render() {
-    console.log(this.props);
     return (
-      <div className="blog-item card card-button col-md-12">          
-          <div className="toggle top-right">
-            <i className="far fa-expand"></i>
+      <div className={"blog-item card col-md-12 " + (this.state.props.active ? 'active' : 'card-button')} onClick={this.open}>          
+          <div className="top-left" onClick={this.toggle}>
+            <i className="far fa-chevron-circle-down toggle"></i>
           </div>
           <div className="card-title row">
             <div className="col-md-9">
@@ -32,7 +46,10 @@ class BlogItem extends Component {
             </div>
           </div>
           <div className="card-body">
-            {this.props.props.body}
+            <div className="blog-fade"></div>
+            <div className="blog-description">
+              {this.props.props.body}
+            </div>
           </div>
       </div>
     );
